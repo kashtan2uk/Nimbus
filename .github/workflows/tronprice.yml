@@ -3,7 +3,7 @@ name: TRON Grid Monitor
 on:
   schedule:
     # Запуск у 55-ту хвилину кожні 4 години (00:55, 04:55 і т.д.)
-    - cron: '55 */4 * * *'
+    - cron: '55 */6 * * *'
   workflow_dispatch:
 
 jobs:
